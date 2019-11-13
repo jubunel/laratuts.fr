@@ -1,1 +1,1 @@
-freek.dev admin
+Laratuts.fr administration

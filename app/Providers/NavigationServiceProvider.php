@@ -16,10 +16,11 @@ class NavigationServiceProvider extends ServiceProvider
         Menu::macro('primary', function () {
             return Menu::new()
                 ->action(HomeController::class, 'Home')
-                ->action(OriginalsController::class, 'Originals')
-                ->action(NewsletterController::class, 'Newsletter')
-                ->action(SpeakingController::class, 'Speaking')
+                //->action(OriginalsController::class, 'Originals')
+                //->action(NewsletterController::class, 'Newsletter')
+                //->action(SpeakingController::class, 'Speaking')
                 ->url('about', 'About')
+                ->action(ContactController::class, 'Contact')
                 ->setActiveFromRequest('/');
         });
 
