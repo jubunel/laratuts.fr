@@ -4,11 +4,11 @@
 
 @section('content')
     <div class="markup mb-6">
-        <h1>About</h1>
+        <h1>A propos</h1>
     </div>
     <img
         src="{{ url('images/avatar-boxed.jpg') }}"
-        alt="Freek Van der Herten speaking at Laracon EU 2018"
+        alt="Julien Bunel photo 2017"
         class="sm:w-48 sm:ml-3 mb-6 sm:mb-0 sm:rounded-full sm:float-right"
     >
     <div class="markup">

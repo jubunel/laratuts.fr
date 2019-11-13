@@ -8,9 +8,9 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 @isset($title)
-<title>{{ $title }} - Freek Van der Herten's blog on PHP, Laravel and JavaScript</title>
+<title>{{ $title }} - Le blog de Julien Bunel sur Laravel, PHP and Ansible</title>
 @else
-<title>Freek Van der Herten's blog on PHP, Laravel and JavaScript</title>
+<title>Le blog de Julien Bunel sur Laravel, PHP and Ansible</title>
 @endisset
 
 @include('feed::links')
@@ -21,9 +21,9 @@
 
 <script src="{{ mix('js/app.js') }}" defer></script>
 
-<link href="https://twitter.com/freekmurze" rel="me">
-<link rel="webmention" href="https://webmention.io/freek.dev/webmention" />
-<link rel="pingback" href="https://webmention.io/freek.dev/xmlrpc" />
+<link href="https://twitter.com/julienbunel" rel="me">
+<link rel="webmention" href="https://webmention.io/laratuts.fr/webmention" />
+<link rel="pingback" href="https://webmention.io/laratuts.fr/xmlrpc" />
 @if($livewire ?? false)
     @livewireAssets
 @endif

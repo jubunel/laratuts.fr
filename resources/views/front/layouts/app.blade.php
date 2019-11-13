@@ -7,22 +7,20 @@
     <div class="max-w-xl md:max-w-4xl mx-auto">
         <header class="mt-8 md:mt-12 mb-8 sm:mb-12 md:mb-16 px-4 md:px-8 leading-tight">
             <div class="md:flex items-end">
-                <figure class="w-12 inline-block mb-1 md:mb-0 md:mr-3">
-                    <a href="/" title="Freek.dev">
-                        <img src="/images/murzicoon.svg" class="w-full" alt="Freek.dev logotype">
-                    </a>
-                </figure>
                 <div>
                     <h1 class="text-lg uppercase tracking-wider font-extrabold">
-                        <a href="/">Freek.dev</a>
+                        <a href="/">Laratuts.fr</a>
                     </h1>
                     <p class="text-sm font-bold text-gray-600">
+                        Des tutos sur 
                         <a href="/">
                             Laravel
-                            <span class="text-gray-300">/</span>
+                            <span class="text-gray-300">,</span>
                             PHP
-                            <span class="text-gray-300">/</span>
-                            JavaScript
+                            <span class="text-gray-300">,</span>
+                            Ansible
+                            <span class="text-gray-300">,</span>
+                            ...
                         </a>
                     </p>
                 </div>
